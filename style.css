@@ -55,7 +55,6 @@ body {
 
 .top-nav li a {
     display: block;
-    width: 100px;
     height: 50px;
     background-color: rgba(140, 175, 207, 0.658);
     color: rgb(44, 42, 119);
