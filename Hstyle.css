@@ -83,6 +83,15 @@ body {
   }
 }
 
+.top-nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(26, 64, 146);
+    z-index: 1000;
+}
+
 .top-nav ul {
     list-style: none;
     margin: 0;
@@ -112,4 +121,3 @@ body {
 .top-nav li a.active {
     background-color: rgb(52, 96, 138);
 }
-upda
