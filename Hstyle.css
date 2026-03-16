@@ -11,7 +11,7 @@ body {
 .timeline {
   position: relative;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 40px auto;
   display: flex;
   justify-content: space-between;
 }
@@ -22,14 +22,14 @@ body {
   height:6px;
   width: 100%;
   background-color: white;
-  top: 50;
+  top: 50px;
   left: 50%;
 }
 
 .container {
   padding: 70px 20px 20px 20px;
   position: relative;
-  background-color: inherit;
+  background-color: white;
   width: 25%;
   text-align: center;
 }
@@ -48,39 +48,6 @@ body {
   z-index: 1;
 }
 
-.left, .right{
-  left: 0;
-
-
-.left::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid white;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
-}
-
-.right::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
-}
-
-.right::after {
-  left: -16px;
-}
 
 .content {
   padding: 20px 30px;
