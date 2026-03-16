@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #474e5d;
+  background-color: #ffffff;
   font-family: Helvetica, sans-serif;
 }
 
@@ -21,7 +21,7 @@ body {
   position: absolute;
   height:6px;
   width: 100%;
-  background-color: white;
+  background-color: rgb(93, 83, 179);
   top: 50px;
   left: 50%;
 }
