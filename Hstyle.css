@@ -137,7 +137,7 @@ body {
   width: 0;
   animation:
   typing 4s steps(16) forwards,
-  blink 0.7 step-end infinite;
+  blink 0.7s step-end infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -150,6 +150,6 @@ body {
 
 @keyframes blink {
   50% {
-    border-color: trasparent;
+    border-color: transparent;
   }
 }
