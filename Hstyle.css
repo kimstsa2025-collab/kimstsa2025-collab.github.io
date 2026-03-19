@@ -136,7 +136,7 @@ body {
   border-right:2px solid;
   width: 0;
   animation:
-  typing 4s steps(15) forwards,
+  typing 4s steps(14.5) forwards,
   blink 0.5s step-end infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
